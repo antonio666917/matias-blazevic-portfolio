@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "normalize.css";
 import "./styles/Globals.css";
 import Home from "./pages/Home";
 import reportWebVitals from "./reportWebVitals";

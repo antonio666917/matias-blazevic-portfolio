@@ -105,6 +105,30 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section>
+        <div className="container">
+          <h2 className="strong">Work it</h2>
+          <ul>
+            <li>TV</li>
+            <li>DIGITAL</li>
+            <li>CHATBOTS & Ai ENGINES</li>
+            <li>ACTIVATIONS</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div className="container">
+          <h2 className="strong">Even More About Me</h2>
+          <p>
+            Husband and father extraordinaire. Science nerd. Tree hugger. Ai
+            geek. Electronic music connoisseur. Grilling aficionado. Stargazer.
+            Plant grower and collector. Information theory dork. Bach fan and
+            beach bum.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
