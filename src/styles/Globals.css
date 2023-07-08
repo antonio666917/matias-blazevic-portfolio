@@ -1,0 +1,106 @@
+@import-normalize;
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+
+	/* Mobile devices */
+	@media (max-width: 575.98px) {
+		/* Styles for extra-small devices (e.g., smartphones) */
+	}
+
+	/* Small devices */
+	@media (min-width: 576px) and (max-width: 767.98px) {
+		/* Styles for small devices (e.g., smartphones in landscape mode) */
+	}
+
+	/* Medium devices */
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		/* Styles for medium devices (e.g., tablets in portrait mode) */
+	}
+
+	/* Large devices */
+	@media (min-width: 992px) and (max-width: 1199.98px) {
+		/* Styles for large devices (e.g., tablets in landscape mode) */
+	}
+
+	/* Extra-large devices */
+	@media (min-width: 1200px) {
+		width: 1000px;
+	}
+}
+
+h1 {
+	font-weight: bold;
+	line-height: 1.2;
+	font-size: 3rem;
+	margin-top: 1rem;
+}
+
+h2 {
+	font-size: 1.2rem;
+	line-height: 1.4;
+	margin-top: 1rem;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.2rem;
+	line-height: 1.4;
+	margin-top: 1rem;
+}
+
+
+h4 {
+	font-size: 1.3rem;
+	line-height: 1.4;
+	margin-top: 1rem;
+}
+
+h5 {
+	font-size: 1.1rem;
+	line-height: 1.4;
+	margin-top: 1rem;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.4;
+	margin-top: 1rem;
+}
+
+section.start-section {
+	padding-top: 1rem;
+
+	@media (min-width: 992px) {
+		padding-top: 2rem;
+	}
+}
+
+
+section {
+	padding: 2rem 0 4rem;
+}
+
+section:nth-child(even) {
+	background-color: #EFEFEF;
+	color: black;
+}

@@ -1,0 +1,64 @@
+ul.main-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+ul.main-links li {
+    margin-right: 10px;
+    /* Adjust the spacing between links */
+}
+
+ul.main-links a {
+    display: inline-block;
+    text-decoration: underline;
+    color: #000;
+    transition: all 0.3s ease;
+    /* Add hover animation effect */
+}
+
+ul.main-links a:hover {
+    background-color: #007162;
+    text-decoration: none;
+    /* Change the background color on hover */
+}
+
+
+ul.links {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+ul.links li {
+    margin-right: 10px;
+    /* Adjust the spacing between links */
+}
+
+ul.links a {
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s ease;
+    /* Add hover animation effect */
+}
+
+ul.links a:hover {
+    background-color: #f2f2f2;
+    /* Change the background color on hover */
+}
+
+.link-header {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.non-styled-link {
+    text-decoration: none;
+}
